@@ -1,0 +1,292 @@
+﻿body {
+  color: black;
+
+  background-color: #a3a3a3;
+
+  background-image: url("../static/images/pattern.png");
+
+  background-size: 100px;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bookcover {
+
+  background-color: #b4d1da;
+
+  border-radius: 9px;
+
+  border: 1px solid #738186;
+
+  width: 960px;
+  height: 660px;
+
+  margin: 100px auto;
+
+  position: relative;
+}
+
+
+.page {
+  position: relative;
+  
+  background-color: #FDEFDD;
+
+  width: 920px;
+
+  height: 620px;
+
+  border-radius: 9px;
+
+  margin: 7.5px auto;
+}
+
+.bookdot {
+	border-color: #FDEFDD;
+
+	position: absolute;
+
+	border-radius: 9px;
+
+	border-width: 3px;
+
+	border-style: dashed;
+
+	margin: 5px auto;
+
+	width: 935px;
+
+	height: 635px;
+
+  top: 5px;
+
+  right: 5px;
+
+  bottom: 5px;
+
+  left: 5px;
+}
+
+.c {
+	position: absolute;
+	
+	width: 860px;
+
+	height: 595px;
+
+	display: flex;
+
+	top: 15px;
+
+	left: 30px;
+}
+
+.c3menu {
+	flex: 0.15;
+
+	margin-left: 10px;
+
+	display: flex;
+
+	flex-direction: column;
+}
+
+.ghost-button {
+    align-items: center;
+    text-align: center; 
+    color: black;
+}
+
+.ghost-button:hover {
+    background-color: #27408B;
+    color: white;
+}
+
+.c3-1 {
+	flex: 0.1;
+}
+
+.menu1 {
+	flex: 0.25;
+	margin-top: 70px;
+	border-radius: 9px;
+	background-color: #D3CCE3;
+	font-size: 20px;
+	color: white;
+	border: 3px solid #9344F9;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+	padding: 3px;
+	margin-top: 50px;
+}
+
+.c3-2 {
+	flex: 0.3;
+
+	display: flex;
+
+	flex-direction: column;
+}
+
+.c3-3 { 
+	flex: 0.6;
+}
+
+
+
+.c4 {
+	flex: 0.9;
+
+	display: flex;
+}
+
+
+.box1 {
+	border-radius: 9px;
+
+	border: 3px solid #D3CCE3;
+
+}
+
+.box2 {
+	border-radius: 9px;
+
+	border: 3px solid #230033;
+
+}
+
+.c1 {
+	flex: 0.1;
+
+	margin-bottom: 10px;
+
+	display: flex;
+}
+
+.c5date {
+	flex: 0.4;
+
+	margin-left: 3px;
+
+	margin-right: 10px;
+
+	color: white;
+}
+
+.c6title {
+	flex: 0.3;
+
+	color: white;
+}
+
+.c7url {
+	flex: 0.3;
+	
+	font-size:7px;
+	
+	margin-left: 10px;
+
+	margin-top: 10px;
+
+	color: white;
+}
+
+.c8profile {
+	flex: 0.295;
+
+	display: flex;
+
+	flex-direction: column;
+
+	width: 25%; height: 525px; overflow: hidden;
+}
+
+.center { 
+ text-align: center;
+ justify-content: center;
+ 
+}
+
+.planet {
+  background: #feac5e;
+  background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  color: gray;
+}
+
+.red {
+	color: red;
+}
+.blue2 {
+	color: blue;
+}
+
+.star {
+	color: yellow;
+}
+
+.boxback {
+	background: #D3CCE3;
+background: -webkit-linear-gradient(to right, #D3CCE3, #E9E4F0);
+background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);
+
+}
+
+.boxback2 {
+	background: #03001e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+}
+
+.black {
+	color: black;
+}
+
+.profile {
+	flex: 0.4;
+
+	flex-basis: 0;
+
+	flex-shrink: 0;
+	
+}
+
+.profiletext {
+	flex: 0.6;
+
+	color: black;
+
+	margin-top: 20px;
+
+	flex-grow: 1;
+
+	line-height: 20px;
+}
+
+img {
+	width: 85%;
+	
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	margin-top: 12px;
+}
+
+.overflow {
+	overflow: auto;
+}
+
+.icon {
+	font-size: 25px;
+	margin-right: 5px;
+	color: #2bb7ba;
+	padding: 5px;
+}

@@ -1,0 +1,41 @@
+﻿.REtitle {
+	background-color: #99A1CD;
+	padding:5px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 7.5px;
+	font-size: 25px;
+
+}
+
+.name {
+	color: #5D05C8;
+}
+
+.REprofile {
+	background-image: url(./static/images/rabbit.jpg);
+	background-size: contain;
+	margin-bottom: 5px;
+}
+.record {
+	display: flex;
+	width: 470px;
+	height:	400px;
+}
+
+.REcontent {
+	background-color: white;
+	padding: 5px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border: 2px solid gray;
+	width: 90%;
+	font-size:20px;
+	flex: 0.5;
+}
+
+
+
+
