@@ -1,5 +1,4 @@
-﻿
-.c2 {
+﻿.c2 {
 	flex: 0.85;
 
 	flex-direction: column;
@@ -17,7 +16,7 @@
 
 	height: 525px;
 
-	position:relative;
+	position: relative;
 
 	flex-shrink: 0;
 }
@@ -28,6 +27,7 @@
 
 	margin: 7px;
 }
+
 .content2 {
 	flex: 0.75;
 
@@ -60,7 +60,7 @@
 	margin: 5px;
 	flex-wrap: nowrap;
 	flex-shrink: 0;
-		margin-top: 7px;
+	margin-top: 7px;
 }
 
 .head2 {
@@ -88,15 +88,16 @@
 }
 
 .yd {
-	color:#87A7CA;
+	color: #87A7CA;
 }
 
 hr {
-border-top: 4px dashed #8299B3;
+	border-top: 4px dashed #8299B3;
 }
 
 .padang {
-  width: auto; height: auto;
-    max-width: 100px;
-    max-height: 100px;
+	width: auto;
+	height: auto;
+	max-width: 100px;
+	max-height: 100px;
 }

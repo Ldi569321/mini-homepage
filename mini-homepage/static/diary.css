@@ -1,0 +1,63 @@
+﻿.DIdate {
+	margin-bottom: 8px;
+	border: 3px solid #747474;
+	display: flex;
+}
+
+.DIdate1 {
+	flex: 0.3;
+	color: blue;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.DIdate2 {
+	flex: 0, 7;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.DItitle {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #005ca1;
+}
+
+.DIcontent {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	border: 1px solid #747474;
+}
+
+.black {
+	color: black;
+}
+
+.ghost-button1 {
+	align-items: center;
+	text-align: center;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font: 0px;
+	font-size: 20px;
+}
+
+.ghost-button1:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color: red;
+	transition: 3000ms ease all;
+}
+
+#secret-box {
+	display: none;
+}
+
+.button-box {
+	display: flex;
+	justify-content: center;
+}

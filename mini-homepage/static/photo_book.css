@@ -1,0 +1,22 @@
+﻿.textbox {
+	margin: 20px;
+	margin-left: 20px;
+	background-color: #b1a2ff;
+	font-size: 28px;
+	padding: 1px;
+
+}
+
+.text1 {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.text2 {
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.sceret {
+	color: #2c8bb0;
+}

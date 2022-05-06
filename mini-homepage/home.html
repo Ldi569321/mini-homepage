@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>2021 MINI HOMEPAGE</title>
+  <link rel="stylesheet" href="./static/font.css" />
+  <link rel="stylesheet" href="./static/layout.css" />
+  <link rel="stylesheet" href="./static/home.css" />
+  <link rel="stylesheet" href="./static/shortcuts.css" />
+  <link rel="stylesheet" href="./static/photo_book.css" />
+  <link rel="stylesheet" href="./static/diary.css" />
+  <link rel="stylesheet" href="./static/guest_book.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <script language="javascript">
+
+
+
+    function printClock() {
+
+      var date = new Date();
+
+      document.getElementById("result").innerHTML = "현재 시간: " + date.getHours() + "시" + date.getMinutes() + "분" + date.getSeconds() + "초";
+
+      setInterval(printClock, 1000);
+
+    }
+
+  </script>
+  <!--출처: https://sno-machinelearning.tistory.com/32 [스노의 머신러닝 스터디 정리]-->
+  <script src="https://kit.fontawesome.com/4f952c52eb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="printClock()">
+  <div class="nanum">
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="c">
+            <div class="c2">
+              <div class="c1 boxback2">
+                <div class="c5date">
+                  <p class="center"><span id="result"></p>
+                </div>
+                <div class="c6title">
+                  <p class="center"> LW의 <span class="planet">planet</span> 여행~ <span class="star">＊＊</span></p>
+                </div>
+                <div class="c7url">
+                  <p class="center black">https://url주소좀/알려좀주쇼~</p>
+                </div>
+              </div>
+              <div class="c4">
+                <div class="c8profile box1 boxback">
+                  <div class="profile center"><img src="파댕이 프로필.jpg"></div>
+                  <div class="profiletext">저는 파댕이 이모티콘을 굉장히 에용하고있는데요. 제가 가장 처음으로 구매한 이모티콘 이기도하고 친구들 약올리기에도 너무 좋은 이모티콘
+                    같아서 프로필 사진으로 사용중입니다!</div>
+                  <div class="profile-dropdown">
+                    <div class="dropdown-btn">
+                      <div class="dropdown-title">파도타기</div>
+                      <div class="triangle-down"></div>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티카페로 가기</a>
+                      <a href="https://www.instagram.com/coding_comu/" target="_blank">코뮤니티인스타로 가기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="c9content box1 boxback">
+                  <div class="content1">
+                    <div class="yd ltim">New Update
+                      <hr>
+                    </div>
+                    <div class="head1"><span class="new">공지글</span>ㄴr는 ㄱr끔눈물을 흘린ㄷr...</div>
+                    <div class="head2"><span class="new">공지글</span>파댕이 이모티콘 7탄 출시</div>
+                    <div class="head3"><span class="blue">게시판</span>심심하당...</div>
+                    <div class="head4"><span class="blue">게시판</span>파댕이 이모티콘 귀여워</div>
+                  </div>
+                  <div class="content2 yd ltim">MiniRoom
+                    <hr>
+                    <img src="투명파댕.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c3menu">
+              <div class="c3-1"></div>
+              <div class="c3-2">
+                <div class="menuB">
+                  <div class="menu1"><a href="home.html" class="ghost-button">홈</a></div>
+                  <div class="menu1"><a href="diary.html" class="ghost-button">다이어리</a></div>
+                  <div class="menu1"><a href="photo_book.html" class="ghost-button">사진첩</a></div>
+                  <div class="menu1"><a href="guest_book.html" class="ghost-button">방명록</a></div>
+                </div>
+              </div>
+              <div class="c3-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
